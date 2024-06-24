@@ -305,7 +305,7 @@ button {
 }
 
 .profilenav img {
-    width: 120px;
+    width: 100px;
     cursor: pointer;
 }
 
@@ -1345,3 +1345,12 @@ button {
         height: 40px;
     }
 }
+
+/* *************************************************** */
+
+.notification img{
+    width: 22px;
+}
+
+
+/* *************************************************** */
