@@ -44,8 +44,8 @@ const Aside = () => {
                 <span>Blogs</span>
             </li>
           </Link>
-          <Link href={"/addblog"}>
-            <li className={`${activeLink === '/addblog' ? 'navactive' : ''}`} onClick={() => handleLinkClick('/addblog')}>
+          <Link href={"/blog/addblog"}>
+            <li className={`${activeLink === '/blog/addblog' ? 'navactive' : ''}`} onClick={() => handleLinkClick('/blog/addblog')}>
               <MdOutlineAddPhotoAlternate />
                 <span>AddBlog</span>
             </li>
